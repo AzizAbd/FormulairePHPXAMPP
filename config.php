@@ -9,7 +9,7 @@ if (＄_SERVER['HTTP_HOST'] == 'localhost') {
   ＄host       = "localhost";
   ＄username   = "root";
   ＄password   = "";
-  ＄dbname     = "tracker";
+  ＄dbname     = "project1";
 }
 
 ＄dsn        = "mysql:host=＄host;dbname=＄dbname";
