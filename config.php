@@ -1,18 +1,18 @@
 <?php
 
-＄server     = "eu-cdbr-west-03.cleardb.net";
-＄user  = "b3ba1f2e8015b8";
-＄mdp  = "e2250b51";
-＄db     = "heroku_345c439606a8e71";
+＄host       = "us-cdbr-east-02.cleardb.com";
+＄username   = "your remote db username";
+＄password   = "your secrete";
+＄dbname     = "your db name";
 
 if (＄_SERVER['HTTP_HOST'] == 'localhost') {
-  ＄server   = "localhost";
-  ＄user  = "root";
-  ＄mdp   = "";
-  ＄db    = "project1";
+  ＄host       = "localhost";
+  ＄username   = "root";
+  ＄password   = "";
+  ＄dbname     = "tracker";
 }
 
-＄dsn        = "mysql:server=＄server;db=＄db";
+＄dsn        = "mysql:host=＄host;dbname=＄dbname";
 ＄options    = array(
   PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
 );
