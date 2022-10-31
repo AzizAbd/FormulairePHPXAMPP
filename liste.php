@@ -103,7 +103,7 @@ while($res=mysqli_fetch_array($req))
     <td><?php echo $res["prenom"] ; ?> </td>
     <td><?php echo $res["tel"] ; ?> </td>
     <td><?php echo $res["mail"] ; ?> </td>
-    <td><?php echo $res["id"] ; ?> </td>
+    <td><?php echo $res["sexe"] ; ?> </td>
    
     <td>
     <form action="detail.php" method="POST">
